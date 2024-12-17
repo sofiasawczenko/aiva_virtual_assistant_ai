@@ -34,33 +34,38 @@ First, ensure you have the extension files locally on your machine. You can eith
 ```bash
 git clone https://github.com/your-username/AIVA-chrome-extension.git
 cd AIVA-chrome-extension
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 Before using the extension, make sure to install the necessary dependencies. This project requires Node.js and Axios. To install the dependencies, run:
 
-bash
-Copy code
+```bash
 npm install
-3. Build the Project
+```
+
+###  3. Build the Project
 You will need to bundle the project into a format that Chrome can use. Depending on your setup, you can use a bundler like webpack to create the necessary build files. If you've already set up the project for production, you should have the build folder ready to go.
 
-bash
-Copy code
+```bash
 npm run build
-4. Enable Developer Mode in Chrome
+```
+
+### 4. Enable Developer Mode in Chrome
 To load the extension into your Chrome browser, you need to enable Developer Mode:
 
-Open Google Chrome.
-Go to the Extensions page by clicking the three dots menu at the top-right corner of Chrome and selecting More tools > Extensions.
-On the Extensions page, enable Developer mode in the top-right corner.
-5. Load the Extension Locally
+- Open Google Chrome.
+- Go to the Extensions page by clicking the three dots menu at the top-right corner of Chrome and selecting More tools > Extensions.
+- On the Extensions page, enable Developer mode in the top-right corner.
+- 
+### 5. Load the Extension Locally
 Once Developer Mode is enabled, you can load the extension directly from your local files:
 
-On the Extensions page, click on the Load unpacked button.
-Select the build folder from your project directory (or the directory containing the extension files).
-The extension should now appear in your Chrome extensions list.
-6. Interact with AIVA
+- On the Extensions page, click on the Load unpacked button.
+- Select the build folder from your project directory (or the directory containing the extension files).
+- The extension should now appear in your Chrome extensions list.
+- 
+### 6. Interact with AIVA
 Now that AIVA is loaded into Chrome, you should see the extension icon in the top-right corner of your browser.
 
-Click on the AIVA icon to open the AI-powered assistant.
-Enter your queries or tasks, and AIVA will respond in real-time using the Google Gemini API.
+- Click on the AIVA icon to open the AI-powered assistant.
+- Enter your queries or tasks, and AIVA will respond in real-time using the Google Gemini API.
