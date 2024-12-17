@@ -1,6 +1,7 @@
 # AIVA - Chrome Extension
 
-![AIVA Image](https://github.com/user-attachments/assets/afb3e167-c7d4-4d94-914e-d6d61746e55e =250x)
+![image](https://github.com/user-attachments/assets/e7f73c87-a34b-435b-a33f-3128c0141ec8)
+
 
 AIVA (Advanced Virtual Assistant) is a Chrome extension that leverages **Artificial Intelligence** to enhance the user experience by offering personalized assistance directly in the browser. This extension connects with the **Google Gemini API** to generate responses, provide insights, and assist with tasks in real-time.
 
